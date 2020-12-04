@@ -1,0 +1,217 @@
+#---------------------------
+# Site
+#---------------------------
+favicon: /img/favicon.png 
+
+apple_touch_icon: /img/apple-touch-icon.png 
+
+title_join_string: ' - ' 
+
+force_https: true  
+
+highlight: 
+  enable: true
+  theme: tomorrow-night-eighties 
+  
+fun_features: 
+  typing: 
+    enable: false
+    typeSpeed: 70 
+    cursorChar: "_" 
+    loop: false 
+  anchorjs: 
+    enable: true
+    element: h1,h2,h3,h4,h5,h6
+    placement: right 
+    visible: false 
+    icon: "" 
+  mouse_click: 
+    enable: false
+    style: values 
+
+color:  
+  body_bg_color: "#eee"
+  navbar_bg_color: "#f17f42"
+  navbar_text_color: "white"
+  text_color: "#3c4858"
+  link_color: "#3c4858"
+  link_hover_color: "#1abc9c"
+  board_color: "#fff"
+
+web_analytics:
+  enable: true
+  google:  # https://analytics.google.com/analytics/web/*
+
+lazyload: 
+  enable: true
+  onlypost: false
+
+smooth_scroll:
+  enable: true
+
+daovoice: 
+  enable: false 
+  appid: '' 
+
+#---------------------------
+# Header
+#---------------------------
+navbar:
+  blog_title:  
+  menu: 
+    partenaire: /partenaire/  
+    palmares: /palmares/ 
+    links: /links/
+    archive: /archives/
+    about: /about/
+
+search: 
+  enable: true
+  path: /local-search.xml 
+  generate_path: /local-search.xml 
+  field: post
+  content: true
+
+scroll_down_arrow: 
+  enable: true
+  banner_height_limit: 90  
+  scroll_after_turning_page: true  
+
+banner_scroll: false
+
+
+#---------------------------
+# Footer
+#---------------------------
+
+scroll_top_arrow:
+  enable: true
+
+
+#---------------------------
+# Index Page
+#---------------------------
+index:
+  banner_img: /img/default.jpg
+  banner_img_height: 100 # available: 0 - 100
+  slogan: 
+    enable: false  
+    text:  
+  auto_excerpt:
+    enable: true
+  post_url_target: _self  # available: _blank | _self
+  post_meta:
+    date: true
+    category: true
+    tag: true
+
+
+#---------------------------
+# Post Page
+#---------------------------
+post:
+  banner_img: /img/default.jpg
+  banner_img_height: 70  # available: 0 - 100
+  meta: 
+    date:  
+      enable: true
+      format: "dddd Do MMMM YYYY, h:mm a" 
+    wordcount:  
+      enable: true
+      format: "{} mots"  
+    min2read:  
+      enable: true
+      format: "{} minutes de lecture"
+    views:  
+      enable: true
+      format: "{} vues"
+  toc:  
+    enable: false
+  custom:  
+    enable: false
+    content: '<img src="https://octodex.github.com/images/jetpacktocat.png" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">' 
+  comments:  
+    enable: false  
+    type: utterances  
+  image_zoom:  
+    enable: true
+
+#---------------------------
+# Comments
+#---------------------------
+
+# utterances
+# You can install utterances with https://utteranc.es/ and generate your configuration
+utterances:
+  repo:
+  issue_term:
+  label: utterances
+  theme: github-light
+  crossorigin: anonymous
+
+#---------------------------
+# Archive Page
+#---------------------------
+archive:
+  banner_img: /img/default.jpg
+  banner_img_height: 80  # available: 0 - 100
+
+
+#---------------------------
+# Categories Page
+#---------------------------
+category:
+  banner_img: /img/default.jpg
+  banner_img_height: 80  # available: 0 - 100
+
+
+#---------------------------
+# Tags Page
+#---------------------------
+tag:
+  banner_img: /img/default.jpg
+  banner_img_height: 80  # available: 0 - 100
+  tagcloud: 
+    min_font: 15
+    max_font: 30
+    unit: px  
+    start_color: "#BBBBEE"
+    end_color: "#337ab7"
+
+
+#---------------------------
+# About Page
+#---------------------------
+about:  
+  md_path: ./pages/about.md  
+  banner_img: /img/default.jpg
+  banner_img_height: 80  # available: 0 - 100
+  avatar: /img/avatar.png 
+  name: Eco Motion Team
+  introduce: Nous sommes une équipe d'étudiants de 2ème, 3ème et 4ème année de Polytech Nancy, qui encadrée par une équipe de tuteurs pédagogiques, réfléchit à l'élaboration d'un prototype dans le but de parcourir 11 tours de piste en un temps donné tout en consommant le moins d'énergie possible !
+  icons: 
+    "fab fa-facebook": https://fr-fr.facebook.com/EcoMotionTeam/
+    "fab fa-twitter": https://twitter.com/ecomotionteam?lang=fr
+    "fab fa-instagram": https://www.instagram.com/ecomotionteam/
+    "fab fa-youtube": https://www.youtube.com/user/EMTbyESSTIN
+
+
+#---------------------------
+# 404 Page
+#---------------------------
+page404:
+  banner_img: /img/default.jpg
+  banner_img_height: 80  # available: 0 - 100
+  subtitle: 'Page not found'
+
+
+#---------------------------
+# Links Page
+#---------------------------
+links:
+  banner_img: /img/default.jpg
+  banner_img_height: 80  # available: 0 - 100
+  items:
+    Web: [https://mehdielmadkour.ovh/appEMT, Application de suivi de course sur navigateur]
+    Android: [https://mehdielmadkour.ovh, Application téléchargeable sur Android]
+    IOS: [https://mehdielmadkour.ovh, Application téléchargeable sur Iphone <br> A venir]

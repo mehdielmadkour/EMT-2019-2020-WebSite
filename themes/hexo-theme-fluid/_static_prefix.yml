@@ -1,0 +1,52 @@
+#---------------------------
+#
+# Here is the url prefix to configure JS and CSS static assets. Set CDN addresses you want to customize.
+# Be aware that you would better use the same version as internal ones to avoid potential problems.
+# Please use the https protocol of CDN files when you enable https on your site.
+# the configuration here supports overwrite
+# DO NOT EDIT THE FOLLOWING SETTINGS UNLESS YOU KNOW WHAT YOU ARE DOING
+#---------------------------
+
+#---------------------------
+# Internal static
+#---------------------------
+
+internal_js: /js
+internal_css: /css
+internal_img: /img
+
+
+#---------------------------
+# Third-party library
+#---------------------------
+
+anchor: /lib/anchor
+
+font_awesome: /lib/font-awesome
+
+github_markdown: /lib/github-markdown
+
+jquery: /lib/jquery
+
+bootstrap: /lib/bootstrap
+
+mdbootstrap: /lib/mdbootstrap
+
+# umd
+popper: /lib/popper
+
+prettify: /lib/prettify
+# the path of highlight theme, only support `min.css` file，filename need to be the same as _config.highlight.theme
+prettify_theme: /lib/prettify
+
+tocbot: /lib/tocbot
+
+typed: /lib/typed
+
+fancybox: /lib/fancybox
+
+smooth_scroll: /lib/smooth-scroll
+
+mathjax: https://cdn.staticfile.org/mathjax/2.7.6/
+
+katex: /lib/katex

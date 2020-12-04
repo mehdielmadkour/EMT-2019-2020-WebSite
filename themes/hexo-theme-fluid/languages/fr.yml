@@ -1,0 +1,46 @@
+search:
+  title: Rechercher
+  keyword: Recherche
+  status:
+    success: ' '
+    error: ' '
+
+postTotal: "%d posts."
+
+paginator:
+  pre: Précédant
+  next: Suivant
+
+post:
+  toc: Sommaire
+
+home:
+  title: Acceuil
+
+archive:
+  title: Archives
+  subtitle: Archive
+
+tag:
+  title: Tags
+  subtitle: Tag
+
+partenaire:
+  title: Partenaires
+  subtitle: Partenaire
+
+palmares:
+  title: Palmarès
+  subtitle: Palmarès
+
+about:
+  title: A propos
+  subtitle: A propos
+
+page404:
+  title: Page not found
+  subtitle: Oops, Page not found...
+
+links:
+  title: Application de suivi
+  subtitle: Application de suivi
